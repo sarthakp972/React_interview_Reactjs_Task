@@ -1,0 +1,56 @@
+.Google_interface{
+    /* height: auto; */
+    /* width: 100vw;
+      height: 100vh;    */
+      margin: 0;padding: 0;
+}
+.navbar .links{
+        display: flex;
+        flex-direction: row;
+          justify-content: flex-end;
+          align-items: end;
+        gap: 10px;
+        text-decoration: none;
+        list-style-type: none;
+      cursor: pointer;
+      margin: 10px;
+     
+}
+.img_input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto; 
+    gap: 10px;
+
+}
+.img_input img{
+    width: 400px;
+    height: 200px;
+      max-width: 100%;
+
+}
+.img_input input{
+    padding: 12px 3px 12px 42px;    
+    width: 550px;
+    height: 45px;
+    outline: none;
+    border: 2px;
+    font-size:20px;
+    border-radius: 20px;
+    box-shadow:2px 1px 9px rgba(0, 0, 0, 0.5);
+       box-sizing: border-box;
+
+}
+
+.search{
+    position: absolute;
+    /* top: x; */
+    left: 18px;
+    /* right: 50px; */
+    bottom: 15px;
+}
+.inputbox{
+    position: relative;
+}
